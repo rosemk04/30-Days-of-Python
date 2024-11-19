@@ -1,11 +1,1 @@
-'''AUTHOR=SEBIN PRINCE
-DESCRIPTON=Write a Program to Print the Sum of Numbers from 1 to 15 Objective: Create a Python program that calculates and prints the sum of numbers from 1 to 15.
-a=int(input("Enter a number:"))
-b=1
-sum=0
-while b<=a:
-    print(b)
-    sum = sum + b
-    b=b+1
-print("sum=",sum)
-'''
+
