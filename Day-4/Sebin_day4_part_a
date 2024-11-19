@@ -1,0 +1,7 @@
+'''AUTHOR=SEBIN PRINCE
+DESCRIPTION= Write a Program to Swap the Values of Two Variables Objective: Create a Python program that exchanges the values of two variables.
+a=int(input("Enter the x value:"))
+b=int(input("Enter the y value:"))
+print("Before swapping:","x=",a,"y=",b)
+print("After swapping:","x=",b,"y=",a)
+'''
