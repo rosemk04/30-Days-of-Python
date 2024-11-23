@@ -3,5 +3,5 @@ Author:Rose Mary
 Description:Python Program to Ask for Name and Age
 '''
 name = input("What is your name? ")
-age = input("How old are you? ")
+age =int(input("How old are you? "))
 print(f"Hello, {name}! You are {age} years old.")
