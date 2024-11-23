@@ -2,8 +2,8 @@
 Author: Rose Mary
 Description: Program to Swap the Values of Two Variables
 '''
-x = input("Enter the value of x: ")
-y = input("Enter the value of y: ")
+x = int(input("Enter the value of x: "))
+y = int(input("Enter the value of y: "))
 print(f"Before swapping: x = {x}, y = {y}")
 temp = x  
 x = y   
