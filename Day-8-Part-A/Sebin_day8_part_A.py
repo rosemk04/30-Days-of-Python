@@ -3,6 +3,6 @@ DESCRIPTION:Calculate the User's Age Based on Their Birth Year Objective: Write 
 '''
 from datetime import datetime
 current_year=datetime.now().year
-a=int(input("Enter your birth year:"))
-age=current_year-a
+birth_year=int(input("Enter your birth year:"))
+age=current_year-birth_year
 print("You are",age,"years old")
