@@ -1,0 +1,36 @@
+Task: Calculate BMI Based on User's Weight and Height
+Objective: Write a Python program that takes the user's weight (in kilograms) and height (in meters), calculates their Body Mass Index (BMI), and displays the result.
+
+Instructions:
+
+1.Open your coding environment: Use a code editor, IDE, or Python terminal to write your program.
+
+2.Write the code: Enter the following Python code into your script:
+
+# Ask the user to enter their weight in kilograms
+weight = float(input("Enter your weight (in kg): "))
+
+# Ask the user to enter their height in meters
+height = float(input("Enter your height (in meters): "))
+
+# Calculate the BMI
+bmi = weight / (height ** 2)
+
+# Display the BMI result
+print(f"Your BMI is: {bmi:.2f}")
+
+3.Run the program: Save and execute the code.
+4.Test the program:
+
+Enter your weight and height (e.g., 70 for weight and 1.75 for height).
+•The program should output something like:
+Enter your weight (in kg): 70  
+Enter your height (in meters): 1.75  
+Your BMI is: 22.86
+
+•Explanation:
+
+float(input()): Converts the user's input to a floating-point number to handle decimal values.
+BMI Formula: 
+BMI=weight (kg)/height (m)²
+print(f"{bmi:.2f}"): Displays the BMI rounded to two decimal places.
