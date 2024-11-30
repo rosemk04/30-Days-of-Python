@@ -1,0 +1,8 @@
+"""
+AUTHOR:Rose Mary
+DESCRIPTION:Calculate BMI Based on User's Weight and Height
+"""
+height=float(input("Enter your weight in kg:"))
+weight=float(input("E.nter your height in meter:"))
+bmi=height/(weight**2)
+print("Your BMI is",bmi)
