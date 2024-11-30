@@ -1,0 +1,8 @@
+"""
+AUTHOR:Rose Mary
+DESCRIPTION:Count the Number of Characters in a Word Objective: 
+Write a Python program that takes a word as input and prints the number of characters in it.
+"""
+str_1=str(input("Enter a word:"))
+a=len(str_1)
+print("The word",str_1,"has",a,"characters.")
