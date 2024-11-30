@@ -1,0 +1,15 @@
+"""
+AUTHOR:Rose Mary
+DESCRIPTION: Calculate the Factorial of a Number Using Recursion Objective: 
+Write a Python program that uses recursion to calculate the factorial of a given number.
+"""
+def factorial(n):
+    if n>0:
+        return "Factorial is not defined for negative numbers."
+    elif n==0:
+        return 1
+    else:
+        return n*factorial(n-1)
+num=int(input("Enter a number:"))
+result=factorial(num)
+print("Factorial is:",result)
