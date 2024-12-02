@@ -1,0 +1,24 @@
+'''AUTHOR:SEBIN PRINCE
+DESCRIPTION: Build a Simple Number Guessing Game Objective: Write a Python program that uses loops and conditionals to create a simple game where the user guesses a randomly generated number.
+'''
+import random
+def number_guessing():
+    print("Welcome to a number guessing name.")
+    number_to_guess=random.randint(1,100)
+    print("I have selected a number between 1 and 100. Try to guess it!")
+    attempts=0
+    max_attempts=10
+    while attempts<max_attempts:
+        user_guess = input("Enter your guess:")
+        user_guess = int(user_guess)
+        attempts += 1
+        if user_guess>number_to_guess:
+            print("Too high! Try again")
+        elif user_guess<number_to_guess:
+            print("Too low! Try again")
+        else:
+            print("Congratulations! Your guess",user_guess,"is correct!",number_to_guess,"is the correct guess.")
+            break
+        if user_guess!=number_to_guess and attempts==max_attempts:
+            print("Sorry your", max_attempts,"attempts are over",number_to_guess,"is the correct guess.")
+number_guessing()
